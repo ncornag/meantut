@@ -22,7 +22,7 @@ cd tutorial
 Create a new file
 
 ```bash
-vi server.js
+vi index.js
 ```
 
 Write to the file:
@@ -34,13 +34,13 @@ console.log('Hello world');
 Execute the program:
 
 ```bash
-node server.js
+node index.js
 ```
 
 or better:
 ```bash
 npm i -g supervisor
-supervisor server.js
+supervisor index.js
 ```
 
 ## Functions
